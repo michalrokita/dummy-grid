@@ -1,0 +1,17 @@
+/* .album-id {
+  width: 5rem;
+}
+
+.album-title-author {
+  width: calc(100% - 5rem - 200px);
+} */
+
+.gallery {
+  transition: max-height 0.3s ease-in-out;
+  overflow: hidden;
+  max-height: 600px;
+}
+
+.gallery.collapsed {
+  max-height: 0px;
+}
